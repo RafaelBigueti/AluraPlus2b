@@ -27,7 +27,7 @@ body{
     height: 100vh;
     display: grid;
     grid-template-columns: 40% 60%;
-}body>
+}
 
 .container-botao{
     background-color: var(--botao-azul);
@@ -55,4 +55,20 @@ body{
 }
 .container-caixa{
     margin: 0 6em;
+}
+.imagem-secundaria{
+    width: 80%;
+}
+.secundario{
+    align-items: center;
+    margin: 0 10em;
+}
+.descricao-titulo{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+.descricao-texto{
+    color: var(--cinza-secundario);
 }
